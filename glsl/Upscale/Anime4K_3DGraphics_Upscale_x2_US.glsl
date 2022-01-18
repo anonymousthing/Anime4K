@@ -98,7 +98,6 @@ vec4 hook() {
 //!HOOK MAIN
 //!BIND MAIN
 //!BIND conv2d_last_tf
-//!SAVE MAIN
 //!WIDTH conv2d_last_tf.w 2 *
 //!HEIGHT conv2d_last_tf.h 2 *
 vec4 hook() {

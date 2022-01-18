@@ -808,7 +808,6 @@ vec4 hook() {
 //!BIND conv2d_6_tf1
 //!BIND conv2d_7_tf
 //!BIND conv2d_7_tf1
-//!SAVE MAIN
 //!WIDTH conv2d_1_tf.w
 //!HEIGHT conv2d_1_tf.h
 #define g_0 (max((conv2d_1_tf_tex(conv2d_1_tf_pos)), 0.0))

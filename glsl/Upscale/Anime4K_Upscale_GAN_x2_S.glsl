@@ -562,7 +562,6 @@ vec4 hook() {
 //!BIND MAIN
 //!BIND conv0ups
 //!BIND conv0ups1
-//!SAVE MAIN
 //!WIDTH conv0ups.w 2 *
 //!HEIGHT conv0ups.h 2 *
 //!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *

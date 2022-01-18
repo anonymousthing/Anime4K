@@ -380,7 +380,6 @@ vec4 hook() {
 //!BIND MAIN
 //!BIND conv2d_3_tf
 //!BIND conv2d_3_tf1
-//!SAVE MAIN
 //!WIDTH conv2d_3_tf.w
 //!HEIGHT conv2d_3_tf.h
 #define go_0(x_off, y_off) (max((conv2d_3_tf_texOff(vec2(x_off, y_off))), 0.0))

@@ -98,7 +98,6 @@ vec4 hook() {
 //!HOOK MAIN
 //!BIND MAIN
 //!BIND conv2d_last_tf
-//!SAVE MAIN
 //!WIDTH conv2d_last_tf.w 2 *
 //!HEIGHT conv2d_last_tf.h 2 *
 vec4 hook() {
@@ -110,4 +109,3 @@ vec4 hook() {
     float c3 = c2;
     return vec4(c0, c1, c2, c3) + MAIN_tex(MAIN_pos);
 }
-

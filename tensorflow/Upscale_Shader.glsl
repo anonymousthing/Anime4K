@@ -356,7 +356,6 @@ vec4 hook() {
 //!BIND conv2d_7_tf
 //!BIND conv2d_7_tf1
 //!BIND conv2d_7_tf2
-//!SAVE MAIN
 //!WIDTH conv2d_7_tf.w 2 *
 //!HEIGHT conv2d_7_tf.h 2 *
 //!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
